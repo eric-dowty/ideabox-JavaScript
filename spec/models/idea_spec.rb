@@ -24,4 +24,13 @@ RSpec.describe Idea, type: :model do
     expect(idea.quality.description).to eq("genius")
   end
 
+  it "returns the details of an idea" do
+    idea.quality_id = quality.id
+    details = Idea.details(idea)
+    expect(details.title).to eq("first idea")
+    expect(details.body).to eq("first idea")
+    expect(details.title).to eq("this is a badass idea!")
+    expect(details.quality).to eq("genius")
+  end
+
 end
