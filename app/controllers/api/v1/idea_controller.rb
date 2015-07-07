@@ -4,7 +4,7 @@ class Api::V1::IdeaController < ApplicationController
   respond_to :json
 
   def index
-    respond_with Idea.all
+    respond_with Idea.all_with_details
   end
 
   def show

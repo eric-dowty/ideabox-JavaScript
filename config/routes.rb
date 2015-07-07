@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :idea, except: [:new, :edit]
+      resources :quality, only: [:index]
     end
   end
 

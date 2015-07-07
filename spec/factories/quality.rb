@@ -4,4 +4,8 @@ FactoryGirl.define do
     description "genius"
   end
 
+  factory :swill, class: Quality do 
+    description "swill"
+  end
+
 end

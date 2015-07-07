@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Idea, type: :model do
 
-  let!(:quality) { create(:quality) }
+  let!(:quality) { create(:swill) }
   let(:idea) { create(:idea) }
 
   it "is valid with a title and description" do
@@ -21,16 +21,24 @@ RSpec.describe Idea, type: :model do
 
   it "has one quality" do
     idea.quality_id = quality.id
-    expect(idea.quality.description).to eq("genius")
+    expect(idea.quality.description).to eq("swill")
   end
 
   it "returns the details of an idea" do
     idea.quality_id = quality.id
-    details = Idea.details(idea)
+    details = idea.full_details
     expect(details.title).to eq("first idea")
-    expect(details.body).to eq("first idea")
-    expect(details.title).to eq("this is a badass idea!")
-    expect(details.quality).to eq("genius")
+    expect(details.body).to eq("this is a badass idea!")
+    expect(details.id).to eq(idea.id.to_s)
+    expect(details.quality).to eq("swill")
+  end
+
+  it "returns the details of all ideas" do
+    Idea.destroy_all
+    idea
+    another_idea = Idea.create(title: "two", body: "a second idea")    
+    details = Idea.all_with_details
+    expect(details.count).to eq(2)
   end
 
 end
