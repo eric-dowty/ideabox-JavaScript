@@ -30,7 +30,7 @@ RSpec.describe Idea, type: :model do
     expect(details[:title]).to eq("first idea")
     expect(details[:body]).to eq("this is a badass idea!")
     expect(details[:id]).to eq(idea.id.to_s)
-    expect(details[:quality]).to eq("swill")
+    expect(details[:description]).to eq("swill")
   end
 
   it "returns the details of all ideas" do

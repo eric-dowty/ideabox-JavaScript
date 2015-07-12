@@ -3,7 +3,7 @@ class Idea < ActiveRecord::Base
   validates :title, :body, presence: true
 
   def full_details
-    { title: title, body: get_body, quality: get_quality, id: id.to_s }
+    { title: title, body: get_body, description: get_quality, id: id.to_s }
   end
 
   def self.all_with_details
