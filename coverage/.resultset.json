@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/controllers/api/v1/idea_controller_spec.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/controllers/api/v1/idea_controller_spec.rb": [
         1,
         1,
         null,
@@ -9,8 +9,8 @@
         null,
         6,
         6,
+        6,
         null,
-        1,
         1,
         1,
         1,
@@ -64,7 +64,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/rails_helper.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/rails_helper.rb": [
         1,
         1,
         1,
@@ -80,14 +80,14 @@
         1,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/environment.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/application.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/application.rb": [
         1,
         null,
         1,
@@ -124,12 +124,12 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/boot.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/environments/test.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/environments/test.rb": [
         1,
         null,
         null,
@@ -173,7 +173,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/assets.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -186,7 +186,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/backtrace_silencers.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -195,18 +195,18 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/cookies_serializer.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/filter_parameter_logging.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/inflections.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -224,18 +224,18 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/mime_types.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/session_store.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/initializers/wrap_parameters.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -251,178 +251,32 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/teaspoon_env.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/teaspoon_env.rb": [
         1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
         null,
         1,
         null,
-        null,
+        1,
         null,
         1,
         null,
-        null,
+        1,
         null,
         1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
         null,
         1,
         null,
+        1,
         null,
-        null,
-        null,
-        null,
+        1,
         null,
         1,
         null,
         null,
         null,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -431,7 +285,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/factories/idea.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/factories/idea.rb": [
         1,
         null,
         1,
@@ -441,7 +295,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/factories/quality.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/factories/quality.rb": [
         1,
         null,
         1,
@@ -454,13 +308,13 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/models/quality.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/models/quality.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/config/routes.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/config/routes.rb": [
         1,
         null,
         1,
@@ -474,13 +328,14 @@
         null,
         1,
         null,
-        null
-      ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/controllers/api/v1/idea_controller.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/controllers/api/v1/idea_controller.rb": [
         1,
         null,
         1,
@@ -514,12 +369,12 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/controllers/application_controller.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/controllers/api/v1/quality_controller_spec.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/controllers/api/v1/quality_controller_spec.rb": [
         1,
         1,
         null,
@@ -539,7 +394,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/controllers/api/v1/quality_controller.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/controllers/api/v1/quality_controller.rb": [
         1,
         null,
         1,
@@ -551,7 +406,7 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/controllers/idea_controller_spec.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/controllers/idea_controller_spec.rb": [
         1,
         null,
         1,
@@ -568,30 +423,33 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/controllers/idea_controller.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/controllers/idea_controller.rb": [
         1,
         null,
         1,
         null,
         null,
-        null
-      ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/features/home_page_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
         1,
         null,
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/models/idea_spec.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/features/home_page_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/models/idea_spec.rb": [
         1,
         null,
         1,
@@ -637,31 +495,38 @@
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/app/models/idea.rb": [
-        1,
-        null,
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/app/models/idea.rb": [
         1,
         1,
         1,
         null,
         1,
-        6,
+        4,
         null,
         null,
         1,
-        7,
+        5,
         null,
         null,
         1,
         null,
         1,
-        6,
-        6,
+        4,
+        4,
+        null,
+        null,
+        1,
+        4,
+        18,
+        18,
+        18,
+        null,
+        4,
         null,
         null,
         null
       ],
-      "/Users/ericdowty/Rails/module-4/ideabox/spec/models/quality_spec.rb": [
+      "/Users/ericdowty/Rails/module-4/ideabox-redux/spec/models/quality_spec.rb": [
         1,
         null,
         1,
@@ -680,6 +545,6 @@
         null
       ]
     },
-    "timestamp": 1436243998
+    "timestamp": 1436676637
   }
 }

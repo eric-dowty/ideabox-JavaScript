@@ -1,11 +1,9 @@
-require 'ostruct'
-
 class Idea < ActiveRecord::Base
   belongs_to :quality
   validates :title, :body, presence: true
 
   def full_details
-    OpenStruct.new(title: title, body: get_body, quality: get_quality, id: id.to_s)
+    { title: title, body: get_body, quality: get_quality, id: id.to_s }
   end
 
   def self.all_with_details
@@ -19,15 +17,13 @@ class Idea < ActiveRecord::Base
     quality.description
   end
 
-  def get_body
-    count = 0
-    truncated = []
+  def get_body(count = 0, words = [])
     body.split.each do |word|
-      count += word.length + 1
-      truncated << "#{word} "
       break if count >= 100
+      count += word.length + 1 
+      words << word 
     end
-    truncated.join.strip!
+    words.join(' ')
   end
 
 end

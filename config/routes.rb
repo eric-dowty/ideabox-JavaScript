@@ -11,4 +11,5 @@ Rails.application.routes.draw do
 
   root "idea#home"
 
+  mount MagicLamp::Genie, at: '/magic_lamp' if defined?(MagicLamp)
 end

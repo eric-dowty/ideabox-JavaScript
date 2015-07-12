@@ -12,11 +12,8 @@ class Seed
   end
 
   def self.ideas
-    ideas = [ {title: "Fire Hats", body: "You put it on, then light it on fire.", quality_id: Quality.first.id},
-              {title: "Dog Paddle", body: "A paddle my dog can use to canoe.", quality_id: Quality.second.id},
-              {title: "IoB", body: "Lets you know when a bathroom is free", quality_id: Quality.third.id}
-            ]
-    ideas.each { |idea| Idea.create(idea) }  
+    quality_id = Quality.third.id
+    15.times { |idea| Idea.create(title: fake_title, body: fake_body, quality_id: quality_id) }  
     puts "Ideas have been loaded"
   end
 
@@ -25,6 +22,14 @@ class Seed
     quality
     ideas
   end
+
+  def self.fake_title
+    Faker::Lorem.word
+  end 
+
+  def self.fake_body
+    Faker::Lorem.words(30).join(' ')
+  end 
 
 end
 

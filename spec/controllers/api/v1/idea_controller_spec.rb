@@ -4,15 +4,15 @@ require 'json'
 RSpec.describe Api::V1::IdeaController, type: :controller do
 
   let!(:quality) { create(:quality) }
+  let!(:swill) { create(:swill) }
   let!(:idea) { create(:idea) }
 
   describe "GET #index" do
     it "returns json idea information" do
       get :index, format: :json
       data = JSON.parse(response.body, symbolize_names: true)
-      count = Idea.count
-      expect(data.count).to eq(count)
-      expect(data.last.class).to eq(Hash)
+      expect(data.count).to eq(1)
+      expect(data.last[:title]).to eq("first idea")
     end
   end
 

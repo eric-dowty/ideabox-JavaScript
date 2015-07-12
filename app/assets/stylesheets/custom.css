@@ -1,0 +1,71 @@
+body {
+  background-color: #FF33FF;
+}
+
+h4 {
+  color: #3300CC;
+}
+
+#idea_table {
+  background-color: white;
+  border: 3px solid #990099;
+  margin: 5px;
+  padding: 10px;
+}
+
+#ideas {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  right: calc(50% - 90px);
+}
+
+#ideas table {
+  display: block;
+  height: 420px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 710px) {
+
+  #ideas {
+    width: 60%;
+  }
+
+  #new_idea {
+    width: 25%;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+  }
+
+  #new_idea_form {
+    background-color: white;
+    border: 3px solid #990099;
+    margin: 5px;
+    padding: 10px;
+  }
+
+}
+
+@media (max-width: 709px) {
+
+  #ideas {
+    width: 80%;
+  }
+
+  #new_idea {
+    width: 80%;
+    position: absolute;
+    top: 560px;
+    left: 50px;
+  }
+
+  #new_idea_form {
+    background-color: white;
+    border: 3px solid #990099;
+    margin: 5px;
+    padding: 10px;
+  }
+
+}
